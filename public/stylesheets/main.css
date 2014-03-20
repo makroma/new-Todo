@@ -1,0 +1,176 @@
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+#container{
+    width: 300px;
+	margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+
+}
+#Field {
+    width: 290px;;
+    height: 60px;
+    margin-left: -38px;
+
+}
+.taskField{
+    width: 230px;
+    float: left;
+
+}
+.deleteArea{
+    display: table-cell;
+    width: 70px;
+    float: inherit;
+    padding-top: 16px;
+}
+
+.info{
+    display: none;
+}
+#FieldSubmit{
+    width: 50px;
+    float: left;
+}
+label[for=Field]{
+    display: none;
+}
+
+
+#nav {
+    padding-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    min-height: 60px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+li:last-child {
+    border-bottom: 1px solid #CCCACA;
+}
+li form{
+
+    float:right;
+}
+
+li a {
+    text-decoration: none;
+    color: #26393D;
+    text-transform: uppercase;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+li a:hover {
+    color: #26393D;
+    font-size: 22px;
+    background: rgba(124,186,199,0.4);
+}
+li:hover {
+    background: rgba(22,146,163,0.4);
+}
+/*  ==========================================================================
+    Button
+    ==========================================================================*/
+
+input[type=submit]{
+    background: none repeat scroll 0 0 #C55500;   
+    border-radius: 50%;
+    border: 0px;
+    height: 16px;
+    width: 16px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+input[type=submit]:hover{
+    background: none repeat scroll 0 0 #FE9540;  
+    height: 20px;
+    width: 20px; 
+
+}
+
+
+/*  ==========================================================================
+    Typography
+    ==========================================================================*/
+
+h1,h2,h3,p,a{
+    font-family: 'Old Standard TT',Helvetica,sans-serif;
+    font-style: normal;
+    color: #535353;
+}
+
+p {
+    font-size:16px;
+    font-weight: 200;
+}
+input {
+   font-family: inherit;
+   color: #535353;
+   font-weight: 200;
+   font-size: 22px;
+}
+.deleteArea input{
+    font-size: 12px;
+    vertical-align: middle;
+    
+}
+
+h2 {
+    text-align: center;        
+    font-weight: 200;
+    font-size: 30px; 
+}
+span {
+    background-color: rgba(124,186,199,0.5);
+}
+/*
+ * Links
+ */
+p a{
+    text-decoration: none;
+    color: #3D2F1F;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+p a:hover{
+    color: #B64926;
+}
+
